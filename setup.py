@@ -27,7 +27,7 @@ except OSError:
 requirements = ['numpy', 'scipy', 'matplotlib', 'qutip']
 
 dev_requirements = [
-    'better-apidoc==0.3.2',
+    'better-apidoc>=0.3.2',
     'click',
     'coverage',
     'flake8',
@@ -61,6 +61,7 @@ setup(
         'Natural Language :: English',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
     ],
     description=(
         "Python package for analyzing two-qubit gates in the Weyl chamber"
